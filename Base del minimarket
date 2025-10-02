@@ -1,0 +1,31 @@
+jabyd-minimarket/
+│
+├── backend/                   
+│   ├── controllers/
+│   │   └── productsController.js   # Lógica de productos (CRUD)
+│   ├── models/
+│   │   └── product.js              # Modelo de producto
+│   ├── routes/
+│   │   └── products.js             # Rutas API para productos
+│   ├── app.js                      # Punto de entrada del backend (Express)
+│   ├── package.json                # Dependencias de Node.js
+│   ├── .gitignore                  # Archivos a ignorar en Git
+│   └── README.md                   # Documentación del backend
+│
+├── frontend/                  
+│   ├── public/
+│   │   └── index.html              # Página principal
+│   ├── src/
+│   │   ├── components/             # Componentes reutilizables
+│   │   │   ├── Navbar.js
+│   │   │   ├── ProductList.js
+│   │   │   └── ProductForm.js
+│   │   ├── App.js                  # Componente raíz
+│   │   ├── index.js                # Punto de entrada del frontend (React, probablemente)
+│   │   └── styles.css              # Estilos
+│   ├── package.json                # Dependencias frontend (React)
+│   ├── .gitignore
+│   └── README.md
+│
+├── README.md                       # Documentación general del proyecto
+└── .gitignore                      # Ignorar archivos globalmente
